@@ -16,6 +16,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 600px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -72,3 +73,45 @@ nav ul {
     background: black;
 }
 
+/* Section "Qui je suis" */
+
+#qui {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#qui img {
+    width: 200px;
+    height: 200px;
+    border: 6px white solid;
+    border-radius: 100px;
+    margin-right: 150px;
+}
+
+#quitext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 280px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#quitext h3 {
+    font-size: 50px;
+    padding-top: 0px;
+}
+
+#quitext p {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+#Hehe {
+    height: 1000px;
+}
