@@ -126,6 +126,29 @@ nav ul {
     margin-right: 0px;
 }
 
-#Hehe {
-height: 800px;
+/* Languages maitrisés */ 
+
+#outils-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+#outils {
+    width: 770px;
+    height: 80px;
+    padding: 50px auto  ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #220133;
+}
+
+#outils img {
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-right: 0px;
+}
+
