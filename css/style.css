@@ -129,7 +129,7 @@ nav ul {
 /* Languages maitrisés */ 
 
 #outils-container {
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -143,6 +143,7 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     background-color: #220133;
+    border-radius: 10px;
 }
 
 #outils img {
