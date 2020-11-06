@@ -192,3 +192,53 @@ nav ul {
 #experiences-card span {
     color: grey;
 }
+
+#etudes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#etudes h2 {
+    padding-top: 50px;
+}
+
+#etudes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    padding-top: 50px;
+}
+
+#etudes-card-1 {
+    width: 350px ;
+    height: 413px;
+    border-radius: 15px;
+    background: linear-gradient(0.10turn,#490092, #DA19C6);
+    
+}
+
+#etudes-card-2 {
+    width: 350px ;
+    height: 413px;
+    border-radius: 15px;
+    background: linear-gradient(0.10turn,#FFC700, #f45c45);
+}
+
+.etudes-card-text{
+    margin: 30px auto 30px auto;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 2;
+}
+
+.etudes-card-text p{
+    padding-top: 20px;
+    font-weight: lighter;
+}
