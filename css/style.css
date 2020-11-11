@@ -245,19 +245,17 @@ nav ul {
 /* Portfolio */ 
 
 #portfolio {
-    width: 800px;
-    margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-#portfolio-container-1 {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+#portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: ivory;
 }
 
 #portfolio-card{
@@ -266,6 +264,12 @@ nav ul {
     justify-content: center;
     height: 90px;
     width: 350px;
-    background-color: indianred;
+    border: 1px solid;
+    border-image: linear-gradient(45deg, #490092, #DA19C6) 1;
     border-radius: 10px;
+    font-weight: lighter;
+}
+
+#portfolio-card h1 {
+    font-weight: lighter;
 }
