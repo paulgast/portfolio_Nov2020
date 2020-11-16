@@ -294,16 +294,22 @@ nav ul {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
     margin-top: 100px;
     background-color: #220133;
-    height: 500px;
+    height: auto;
 }
 
 #end-links {
     padding: 20px;
-    background-color: wheat;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #end-links a{
     margin: 20px;
+    font-weight: lighter;
 }
