@@ -41,10 +41,11 @@ nav ul {
 }
 
 #titre h2{
-    padding: 50px;
+    margin: 50px;
 }
 
 .titre2 {
+    margin: 50px;
     font-size: 50px;
 }
 
@@ -67,10 +68,12 @@ nav ul {
 
 #contact {
     background: linear-gradient(0.25turn,#F145E0, #6E00FB);
+    cursor: pointer;
 }
 
 #plus {
     background: black;
+    cursor: pointer;
 }
 
 /* Section "Qui je suis" */
@@ -201,7 +204,7 @@ nav ul {
 }
 
 #etudes h2 {
-    padding-top: 50px;
+    margin-top: 100px;
 }
 
 #etudes-container {
@@ -209,7 +212,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
     width: 800px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #etudes-card-1 {
@@ -251,11 +254,15 @@ nav ul {
     flex-direction: column;
 }
 
+#portfolio h2{
+    margin-top: 70px;
+}
+
 #portfolio-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: ivory;
+    justify-content: space-evenly;
+    width: 900px;
 }
 
 #portfolio-card{
@@ -264,10 +271,12 @@ nav ul {
     justify-content: center;
     height: 90px;
     width: 350px;
+    margin: 20px 0 20px 0;
     border: 1px solid;
     border-image: linear-gradient(45deg, #490092, #DA19C6) 1;
     border-radius: 10px;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 #portfolio-card h1 {
