@@ -292,3 +292,18 @@ nav ul {
 #portfolio-card h1 {
     font-weight: lighter;
 }
+
+footer {
+    margin-top: 100px;
+    background-color: #220133;
+    height: 500px;
+}
+
+#end-links {
+    padding: 20px;
+    background-color: wheat;
+}
+
+#end-links a{
+    margin: 20px;
+}
