@@ -1,0 +1,268 @@
+/* Général */ 
+html{
+    scroll-behavior: smooth;
+}
+span{
+    font-weight: bold;
+}
+.titres{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    margin: 0px 20px;
+    font-family: 'Jura', sans-serif;
+} 
+section{
+    background-color: #EDEDED;
+    text-align: center;
+}
+.Jura{
+    font-family: 'Jura', sans-serif;
+}
+/* Banner */
+#banner{
+    width: 100%;
+    padding: 30px;
+    color: white;
+}
+#mainTitle{
+    margin: 10px auto;
+}
+#horaires{
+    font-family: 'Jura', sans-serif;
+}
+/* Navbar */
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.7);
+}
+nav a {
+    color: white;
+    font-size: 20px;
+}
+nav a {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 21px;
+    text-decoration: underline;
+  }
+nav a:hover {
+    color: #DC3545;
+
+  }
+@media (max-width:992px) {
+    nav a {
+    font-size: 17px;
+    }
+}
+/* Localisation */
+#localisation{
+    background-image: url(docs/sunset.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.localisation-block{
+    color: white;
+    margin: 50px 0px;
+}
+
+#buttonrdv{
+    width: 70%;
+    margin: 20px;
+}
+
+#rdv{
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+/* SERVICES */
+
+#services{
+    text-align: center;
+    background-color: #ededed;
+    padding-bottom: 20px;
+}
+
+#text-services{
+    text-align: justify;
+    margin: 15px;
+}
+
+/* Avis Clients */
+
+#avisClients{
+    height: 265px;
+    color: black;
+}
+
+@media (max-width:730px) {
+    #avisClients {
+        height: 360px;
+    }
+}
+
+.carousel-inner{
+    margin: 0 auto;
+}
+
+#carouselExampleIndicators{
+    padding: 20px;
+    color: black;
+    margin: 13px auto;
+    height: 40px;
+}
+
+.carousel-indicators{
+    bottom:15px;
+}
+
+#carouselExampleIndicators h6 {
+    padding: 20px;
+}
+
+.carousel-control-prev{
+    background-image: none;
+    color: #DC3545;
+}
+
+/* Personnes */ 
+
+.personne{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.personne p {
+    text-align: justify;
+    margin: 0px;
+    max-width: 500px;
+}
+
+#Nom{
+    margin: 20px auto;
+    text-decoration: underline;
+
+}
+
+.personneTexte {
+    margin:10px;
+}
+
+
+/* Notre mission */
+
+#mission{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#t1mission{
+    margin: 20px;
+    text-decoration: underline;
+    font-family: 'Jura', sans-serif;
+}
+
+#t2mission{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#mission p {
+    text-align: justify;
+}
+
+@media (max-width:992px) {
+    img#image2 {
+      display: none;
+    }
+  }
+
+
+/* Footer */ 
+footer{
+    background-color: #ededed;
+}
+
+
+#rowfooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#footerlinks{
+    display: flex;
+    flex-direction: column;
+}
+
+#footerlinks a {
+    margin: 20px auto;
+    color: black;
+}
+
+@media (max-width:764px) {
+    #logonone {
+      display: none;
+    }
+  }
+
+#reserve{
+    margin: 50px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Images */
+
+.elements{
+    justify-content: space-evenly;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+#icon{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.portrait {
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+
+#image{
+    background-image: url(docs/cat3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 330px;
+    width: 100%;
+}
+
+#image2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 373px;
+    margin: 20px;
+}

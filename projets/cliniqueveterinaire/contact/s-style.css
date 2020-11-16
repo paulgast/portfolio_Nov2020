@@ -1,0 +1,125 @@
+/* Général */
+body{
+    scroll-behavior: smooth;
+}
+
+.Jura{
+    margin: 50px 0px;
+}
+
+/* Banner */
+
+#banner{
+    background-color: #2c2d2d;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+#centeralign{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Jura', sans-serif;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+/* Nav */ 
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    color: white;
+}
+
+#navbar a {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 21px;
+    text-decoration: underline;
+    padding: 20px;
+  }
+
+#navbar a:hover {
+    color: #DC3545;
+
+  }
+
+/* Rendez-vous */
+
+#rendez-vous{
+    opacity: 0.0;
+    position:relative;
+    padding: 20px;
+}
+
+#center{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    font-family: 'Jura', sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+#justify{
+    text-align: justify;
+}
+
+#image{
+    width: 320px;
+    height: 523px;
+    margin: 20px;
+}
+
+
+@media (max-width:992px) {
+    img#image {
+      display: none;
+    }
+  }
+
+/* Footer */
+
+footer{
+    background-color: #ededed;
+}
+
+
+#rowfooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#footerlinks{
+    display: flex;
+    flex-direction: column;
+}
+
+#footerlinks a {
+    margin: 20px auto;
+    color: black;
+}
+
+@media (max-width:992px) {
+    #logonone {
+      display: none;
+    }
+  }
+
+#reserve{
+    margin: 50px auto;
+    justify-content: center;
+    text-align: center;
+}
