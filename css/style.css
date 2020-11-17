@@ -66,11 +66,19 @@ nav {
     height: 2px;
     background-color: white;
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width:768px){
     body{
         overflow-x: hidden;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background-color: #12001B;
     }
 
     .nav-links{
@@ -92,6 +100,7 @@ nav {
     .burger {
         display: block;
         cursor: pointer;
+        margin-right: 10px;
     }
 }
 
@@ -109,6 +118,18 @@ nav {
     }
 }
 
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
 #titre {
     display: flex;
     flex-direction: column;
@@ -119,6 +140,8 @@ nav {
 
 #titre h2{
     margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .titre2 {
