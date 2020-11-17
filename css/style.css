@@ -42,6 +42,16 @@ nav ul {
     font-size: 22px;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
 #titre {
     display: flex;
     flex-direction: column;
