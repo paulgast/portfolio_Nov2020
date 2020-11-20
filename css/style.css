@@ -7,7 +7,7 @@
 a {
     color: white;
     text-decoration: none;
-  }
+}
 
 a:visited {
 color: white;
@@ -70,7 +70,8 @@ nav {
 }
 
 @media screen and (max-width:768px){
-    body{
+
+    body {
         overflow-x: hidden;
     }
 
@@ -138,6 +139,12 @@ nav {
     font-size: 30px;
 }
 
+@media screen and (max-width:768px){
+    #titre{
+        font-size: 20px;
+    }
+}
+
 #titre h2{
     margin: 50px;
     display: flex;
@@ -155,7 +162,15 @@ nav {
     justify-content: center;
 }
 
-#header-button button {
+@media  (max-width:768px){
+    #header-button{
+        flex-direction: column;
+    }
+}
+
+#contact {
+    background: linear-gradient(0.25turn,#F145E0, #6E00FB);
+    cursor: pointer;
     width: 300px;
     height: 70px;
     border-radius: 5px;
@@ -166,14 +181,19 @@ nav {
     font-weight: bold;
 }
 
-#contact {
-    background: linear-gradient(0.25turn,#F145E0, #6E00FB);
-    cursor: pointer;
-}
-
 #plus {
     background: black;
     cursor: pointer;
+    background: black;
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+    border-radius: 5px;
+    border:none;
+    margin: 60px 20px 0 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /* Section "Qui je suis" */
@@ -399,7 +419,7 @@ footer {
     align-items: center;
 }
 
-#end-links a{
+#end-links a {
     margin: 20px;
     font-weight: lighter;
 }
