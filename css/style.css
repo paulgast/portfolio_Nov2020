@@ -206,12 +206,27 @@ nav {
     padding-top: 50px;
 }
 
+@media  (max-width:768px){
+    #presentation{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
 #presentation img {
     width: 200px;
     height: 200px;
     border: 6px white solid;
     border-radius: 100px;
     margin-right: 150px;
+}
+
+@media  (max-width:768px){
+    #presentation img{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
 }
 
 #quitext {
@@ -242,6 +257,7 @@ nav {
     width: 280px;
     margin-top: 20px;
 }
+
 #icons img {
     width: 36px;
     height: 36px;
@@ -276,12 +292,29 @@ nav {
     margin-right: 0px;
 }
 
+@media  (max-width:768px){
+    #outils-container{
+        padding: 0px;
+    }
+    #outils {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        margin: 0 20px 0 20px;
+    }
+    #outils img {
+        padding: 10px;
+    }
+}
+
 #experiences {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 
 #experiences-container {
     width: 90%;
@@ -297,6 +330,18 @@ nav {
     justify-content: space-between;
     width: 1000px;
     padding-top: 50px;
+}
+
+@media (max-width:768px){
+    #experiences-box {
+        width: 300px ;
+        flex-direction: column;
+        padding-top: 0px;
+        justify-content: space-between;
+    }
+    #experiences-card{
+        margin-bottom: 50px;
+    }
 }
 
 #experiences-card {
@@ -327,12 +372,30 @@ nav {
     margin-top: 100px;
 }
 
+@media (max-width:768px){
+    #etudes h2 {
+        margin-top: 0px;
+    }
+}
+
 #etudes-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 800px;
     padding-top: 30px;
+}
+
+@media (max-width:768px){
+    #etudes-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+    #etudes-card-2{
+        margin: 20px;
+    }
 }
 
 #etudes-card-1 {
@@ -403,6 +466,17 @@ nav {
     font-weight: lighter;
 }
 
+@media (max-width:768px){
+    #portfolio-container  {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+    #portfolio h2{
+        margin-top: 35px;
+    }
+}
 footer {
     display: flex;
     flex-direction: row;
